@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoCÃO</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,600;0,700;1,100&display=swap" rel="stylesheet">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.2.js"></script>		
+
+</head>
+
+<body>
+   
+    <div>
+        <output id="hora" class="date-now" style="font-family: 'arial black', 'avant garde'; font-size: 24px;"></output>				
+    </div>	
+
+    <!--PRIMEIRA SEÇÃO-->
+   <header id="event-description">
+    <div id="disclaimer">
+        <h2>My First Pet</h2>
+        <p class="about-event">Evento de adoção de pet.</p>
+        <p class="about-event">Venha conhecer seu novo amigo!</p>
+        <p>Data do Evento:</p>
+        <p class="event-date">Doming, 20 de Novembro de 2022</p>
+    </div>
+    <div id="subscription-form">
+     <p>Preencha o nosso formulário para mais informações</p>
+     <form>
+        <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome">
+
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu melhor email">
+            
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" name="phone" placeholder="Digite seu número">
+            
+        </div>
+
+        <div class="form-group">
+            <label for="interest">Interesses</label>
+            <select name="interest">
+                <option value="" disabled selected>Selecione</option>
+                <option value="apartment">Adoção</option>
+                <option value="house">Compra</option>
+                <option value="garden">Cuidados</option>
+            </select>            
+        </div>
+
+        <input type="submit" class="btn" value="INSCREVER-SE">
+     </form>
+    </div>
+   </header>
+
+
+    <!----------------------SEGUNDA SEÇÃO RAÇAS------------------------------>
+    <section id="key-breed">
+        <h2>Com as presenças de:</h2>
+        <div class="breeds">
+
+            <div class="breed">
+                <div id="breed-1" class="breed-img"></div>
+                <p>Lady</p>
+            </div>
+
+            <div class="breed">
+                <div id="breed-2" class="breed-img"></div>
+                <p>Mel</p>
+            </div>
+
+            <div class="breed">
+                <div id="breed-3" class="breed-img"></div>
+                <p>Mia</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----------------------TERCEIRA SEÇÃO LOCAL------------------------------>
+   <section id="location">
+    <div id="address">
+        <i class="bi bi-house-fill"></i>
+        <div id="address-details">
+            <p>Rua Luis Scott, 111</p>
+            <p>Aldeia de Barueri</p>
+            <p>Início: 10:00hs</p>
+        </div>
+    </div>
+    <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>O evento será realizado no maior e mais requisitado complexo da America Latina</p>
+    </div>
+   </section>
+
+
+   <!----------------------QUARTA SEÇÃO PATROCICIO------------------------------>
+   <section id="key-support">
+    <h2>APOIO</h2>
+    <div class="supports">
+
+        <div class="support">
+            <div id="support-1" class="support-img"></div>
+            
+        </div>
+
+        <div class="support">
+            <div id="support-2" class="support-img"></div>
+           
+        </div>       
+
+       
+    </div>
+
+   </section>
+</body>
+
+<script src="scripts/script.js"></script>
+
+
+</html>
